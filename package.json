@@ -8,7 +8,7 @@
     "build": "NODE_ENV=production webpack --mode production",
     "build:dev": "NODE_ENV=development webpack --mode development ",
     "start:dev": "NODE_ENV=development webpack serve --mode development ",
-    "start": "npm run build && npm run dev"
+    "start": "npm run build && node ./server/index.js"
   },
   "keywords": [],
   "author": "",
